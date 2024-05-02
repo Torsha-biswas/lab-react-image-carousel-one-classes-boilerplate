@@ -1,1 +1,45 @@
 /* write your carousel css in this file */
+.carousel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* /* .image-container {
+    position: relative;
+  } */
+   */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-text {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(18, 18, 18, 0.5);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .arrow:first-child {
+    left: 400px;
+  }
+  
+  .arrow:last-child {
+    right: 400px;
+  }
+  
